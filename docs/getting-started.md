@@ -21,6 +21,14 @@ You can install this package using [Composer](https://getcomposer.org) by runnin
 composer require craftzing/:package_name
 ```
 
+We're using [Laravel's package discovery](https://laravel.com/docs/8.x/packages#package-discovery) to automatically
+register the service provider, so you don't have to register it yourself.
+
+You can publish the package config file by running the command below, but it's not mandatory:
+```bash
+php artisan vendor:publish --provider="Craftzing\Laravel\:package_namespace\ServiceProvider" --tag="config"
+```
+
 ## ⚙️ Configuration
 
 If the package requires any configuration, this is where to document it. If it doesn't, remove this section.
