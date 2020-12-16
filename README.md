@@ -6,14 +6,17 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/881eb71372c1b12c18d5/maintainability)](https://codeclimate.com/github/craftzing/:package_name/maintainability)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&color=4D6CB8)](https://github.com/craftzing/:package_name/blob/master/LICENSE)
 
-This package serves as a starting point to create a new PHP package. Everything's in place to get you started quickly:
+This package serves as a starting point to create a new Laravel package. Everything's in place to get you started 
+quickly:
 - Documentation outline
 - Basic workflows
 - Basic config files
+- Laravel-specific code starters
 - ...
 
 Perform a "search and replace" action for the following placeholders and update them with an according value:
-- `:package_name`
+- `:package_name`: Please make sure to use lowercase and dashes as a separator (e.g. `my-package`)
+- `:package_namespace`: Not that the default namespace is already set to be `Craftzing\Laravel` (e.g. `MyPackage`)
 - `:package_description`
 - `:author_name`
 - `:author_email`
