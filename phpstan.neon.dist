@@ -2,7 +2,8 @@ parameters:
 	level: 6
 	paths:
 		- src
-	excludes_analyse:
+	excludePaths:
+	    - ./**/Testing/*
 	    - ./**/*Test.php
 	    - ./**/*TestCase.php
 	    - ./**/Fake*.php
